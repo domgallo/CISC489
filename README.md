@@ -15,10 +15,10 @@ A more readily available application for formulating feedback and presenting thi
 
 ## Subjects, Methods, and Analysis
 
-The data used for the application were collected by the National Oceanic and Atmospheric Administration. Data sets from the years 2006-2016 containing the UV index in Dover, DE on each day were imported in order to create a machine learning algorithm predicting UV index based on day. \
+The data used for the application were collected by the National Oceanic and Atmospheric Administration(NOAA). Data sets from the years 2006-2016 containing the UV index in Dover, DE on each day were imported in order to create a machine learning algorithm predicting UV index based on day. \
 Multiple machine learning algorithms were applied to the data in order to determine the most accurate function to fit the data and allow the machine to accurately detect the pattern and predict future data points, including linear regression and neural networks. \
 Scikit-learn, a machine learning-based data processing library in Python, was used to apply a set of machine learning algorithms to the data. \
-We first attempted importing the DEVELOP national program python package (dnppy), which offered utilities to work with Earth science and remote sensing data. 
+We first attempted importing the DEVELOP National Program Python Package (dnppy), which offered utilities to work with Earth science and remote sensing data. 
 
 ## Results
 
