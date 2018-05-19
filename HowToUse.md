@@ -7,12 +7,12 @@ The data that we used is in a file called 'All UV Data.csv'. When you run this l
 from google.colab import files
 uploaded = files.upload()
 ```
-a box with "Browse..." will pop up underneath and you click on that to select whichever data file you would like to use. 
+a box with "Choose Files..." will pop up underneath and you click on that to select whichever data file you would like to use. 
 If you use your own file, then in this line of code:
 ```
 df = pd.read_csv(StringIO(uploaded['All UV Data.csv']))
 ```
-you would need to replace 'All UV Data.csv' with the name of your data file.\
+you would need to replace 'All UV Data.csv' with the name of your data file.
 
 ```
 x = df['Date']
